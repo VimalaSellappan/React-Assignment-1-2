@@ -41,6 +41,19 @@ function App() {
           challenges="Positioning and layering issues and responsive design."
         />
       </div>
+      <div className="project-wrapper left1">
+        <ProjectCard
+          name="BAR141 website"
+          screenshot="/public/images/image3.png"
+          repo="https://github.com/xOsitax/BarWebsite"
+          tech="HTML,CSS"
+          description="Website with with four linked pages. Styled using CSS and I was responsible for gallery page designed wit HTML and CSS.It features a fixed navigation bar, a colorful animated “Gallery” heading,
+           a sophisticated CSS grid-based image gallery showcasing food and interiors, and a fully styled footer with location and contact details."
+          learning="I learned media queries, fixed navigataion and CSS animations."
+          role="Group project"
+          challenges="Aligned complex grid of images across multiple rows and columns and layout issues due to fixed nav bar and dynamic content height."
+        />
+      </div>
     </div>
   );
 }
