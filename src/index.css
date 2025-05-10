@@ -38,7 +38,9 @@ box-sizing: border-box;
 margin: 0; 
 font-family: 'roboto',sans-serif;
 }
-.intro {
+.home_intro{
+  font-size: 28px;
+}.intro {
   margin-top: 60px;
   margin-bottom: 30px;
   width: 100%;

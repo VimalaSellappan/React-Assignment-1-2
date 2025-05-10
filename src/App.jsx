@@ -6,7 +6,7 @@ import Portfolio from './pages/portfolio';
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
