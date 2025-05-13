@@ -53,4 +53,28 @@ body {
   button:hover {
     background-color: #5e0ee2;
   }
+  @media (max-width: 768px) {
+    .home_container{
+      flex-direction: column;
+    }
+    .left{
+      margin: 0px 0px 20px;
+    }
+    .left img {
+      width: 100%;
+      max-width: 300px; 
   
+}
+    .right p{
+      font-size: 18px;
+      padding: 0px;
+      line-height: 2;
+      text-align: center;
+
+    }
+    button{
+      margin: 20px auto 0 auto;
+      display: block;
+      text-decoration: none !important;
+    }
+  }
