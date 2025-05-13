@@ -14,10 +14,10 @@ function App() {
           and reflect on the challenges I’ve solved along the way.
         </p>
       </div>
-      <div className="project-wrapper left">
+      <div className="project-wrapper">
         <ProjectCard
           name="Genesis Portfolio Design"
-          screenshot="/public/images/image1.png"
+          screenshot="images/image1.png"
           repo="https://github.com/VimalaSellappan/Assignment-11"
           tech="HTML, SASS"
           description="Website with with three linked pages: Home, Projects, and Contact.
@@ -28,10 +28,10 @@ function App() {
           ensuring consistent styling across multiple pages, and making the navigation links work correctly."
         />
       </div>
-      <div className="project-wrapper right">
+      <div className="project-wrapper">
         <ProjectCard
           name="BHROMAON - 12hr Challenge"
-          screenshot="/public/images/image2.png"
+          screenshot="images/image2.png"
           repo="https://github.com/VimalaSellappan/Assignment-14"
           tech="HTML, CSS, Bootstrap"
           description="BHROMAON is a responsive travel landing page built from a Figma design, featuring search functionality, destination highlights, and a testimonial section."
@@ -40,10 +40,10 @@ function App() {
           challenges="Positioning and layering issues and responsive design."
         />
       </div>
-      <div className="project-wrapper left1">
+      <div className="project-wrapper">
         <ProjectCard
           name="BAR141 website"
-          screenshot="/public/images/image3.png"
+          screenshot="images/image3.png"
           repo="https://github.com/xOsitax/BarWebsite"
           tech="HTML,CSS"
           description="Website with with four linked pages. Styled using CSS and I was responsible for gallery page designed wit HTML and CSS.It features a fixed navigation bar, a colorful animated “Gallery” heading,

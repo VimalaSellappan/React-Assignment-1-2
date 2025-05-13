@@ -13,13 +13,14 @@
   font-weight: 800;
   font-family: 'Tagesschrift',sans-serif;
   position: fixed;
-  top: 10px;
+  top: 0;
   left: 0;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000; 
+  border: 5px solid rgb(137, 54, 137);;
   }
   nav .left {
     display: flex;
