@@ -4,9 +4,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-  body{
-    margin-top: 0px;;
-  }
   nav {
   background-color: white;
   width: 100%;
@@ -23,19 +20,19 @@
   border: 5px solid rgb(137, 54, 137);;
   }
   nav .left {
-    display: flex;
-    justify-content: flex-start;
-  }
+  display: flex;
+  justify-content: flex-start;
+}
   
-  nav .right {
+  nav.right{
     display: flex;
-    justify-content: flex-end;
+    gap:12px
   }
   
   nav a {
     color:  rgb(137, 54, 137);
     text-decoration: none;  
-    padding: 10px 20px;     
+    padding: 10px;     
     margin: 0 10px;  
     font-size: 16px;  
     border-radius: 4px;  
@@ -45,6 +42,38 @@
   nav a:hover {
     color: #480ad0;  
   }
+  .menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.menu-toggle div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(137, 54, 137);
+  margin: 4px 0;
+}
+@media (max-width: 768px) {
+  .left {
+    flex: 0;
+  }
 
-  
-  
+  nav .right {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border: 2px solid rgb(137, 54, 137);
+    padding: 10px;
+  }
+
+  nav.right.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: flex ;
+  }
+}
