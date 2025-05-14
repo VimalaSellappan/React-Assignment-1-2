@@ -69,7 +69,7 @@
     padding: 10px;
   }
 
-  nav.right.active {
+  .right.active {
     display: flex;
   }
 
