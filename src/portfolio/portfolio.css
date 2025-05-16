@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow-y: visible;
-    padding-top: 60px; 
+    padding-top: 50px; 
   }
   
   .container {
@@ -36,11 +36,11 @@ body {
   }
  
   .intro {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
-    max-width: 900px;
     color: black;
+    font-size: 18px;
     text-align: left;
     font-family: 'tagesschrift', sans-serif;
     
@@ -72,7 +72,7 @@ body {
   
   .project-card img {
     width: 100%;
-    max-width: 700px;
+    max-width: 800px;
     height: auto;
     border-radius: 6px;
   }

@@ -1,0 +1,12 @@
+/* popup.css */
+.popup {
+  top: 0;
+  bottom: 10px;
+  left: 0;
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
