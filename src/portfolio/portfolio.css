@@ -29,18 +29,20 @@ body {
     font-size: 38px;
     font-weight: 900;
     text-align: center;
-    padding: 20px 10px;
     margin: 0;
     font-family: 'roboto', sans-serif;
     width: 100%;
   }
  
   .intro {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px 15px;
+    max-width: 100%;
+    width:1000px;
     color: black;
-    font-size: 18px;
     text-align: left;
     font-family: 'tagesschrift', sans-serif;
     
@@ -48,6 +50,7 @@ body {
   p {
     color:black;
     line-height: 1.6;
+    font-size: 20px;
   }
   .project-card {
       background-color: #f9f9f9;
@@ -93,7 +96,24 @@ body {
     gap: 20px;
     justify-content: center;
   }
-  
+  .DisplayProject_button
+  {
+    margin: '20px 0';
+    background-color:white;
+    font-family: 'Tagesschrift',sans-serif;
+    color: 'black';
+    text-align: center;
+    border: 'none';
+    padding: '10px 20px';
+    border-radius: '5px';
+    cursor: 'pointer';
+    font-Weight: 'bolder';
+  }
+  .button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   
   @media (max-width: 768px) {
     .project-wrapper {

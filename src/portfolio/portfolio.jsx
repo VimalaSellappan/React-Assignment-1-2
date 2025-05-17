@@ -6,6 +6,8 @@ import './portfolio.css';
 
 function Portfolio() {
   const [selectedProject, setSelectedProject] = useState(null);
+  const [DisplayProjects, setDisplayProjects] = useState(false);
+
   const projects = [
     {
       name:"Genesis Portfolio Design",
@@ -54,9 +56,17 @@ function Portfolio() {
           It’s a personal space to track my growth, share my work, 
           and reflect on the challenges I’ve solved along the way.
         </p>
+        <div className="button-wrapper">
+          <button className='DisplayProject_button'
+              onClick={() => setDisplayProjects(!DisplayProjects)}>
+              {DisplayProjects ? 'Hide Projects' : 'Display Projects'}
+          </button>
+          </div>
       </div>
       <div className="project-wrapper">
-        {projects.map((project, index) => (
+        
+
+        {DisplayProjects&&projects.map((project, index) => (
           <ProjectCard key={index} {...project} onClick={() => handleProjectClick(project)} />
         ))}
       </div>
