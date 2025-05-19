@@ -7,6 +7,7 @@ import './portfolio.css';
 function Portfolio() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [DisplayProjects, setDisplayProjects] = useState(false);
+  const [SearchItem, SetSearchItem] = useState("");
 
   const projects = [
     {
@@ -46,6 +47,10 @@ function Portfolio() {
   const closePopup = () => {
     setSelectedProject(null);
   };
+  const filteredProjects = projects.filter((project) =>
+    project.name.toLowerCase().includes(SearchItem.toLowerCase()) ||
+    project.tech.toLowerCase().includes(SearchItem.toLowerCase())
+  );
   return (
     <div style={{ padding: "20px" }}>
       <h1>Project Portfolio – Vimala Sellappan</h1>
@@ -61,6 +66,11 @@ function Portfolio() {
               onClick={() => setDisplayProjects(!DisplayProjects)}>
               {DisplayProjects ? 'Hide Projects' : 'Display Projects'}
           </button>
+          <input
+          type="text"
+          placeholder="Search projects..."
+          value={SearchItem}
+          onChange={(e) => SetSearchItem(e.target.value)}/>
           </div>
       </div>
       <div className="project-wrapper">
