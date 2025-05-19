@@ -17,7 +17,7 @@ function About() {
         </ul>
   
         <h3>Currently Learning</h3>
-        <p>React hooks, responsive design, and modern CSS layouts.</p>
+        <p style={{ marginTop: "20px" }}>React hooks, responsive design, and modern CSS layouts.</p>
       </div>
     );
   }

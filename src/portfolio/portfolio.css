@@ -113,6 +113,22 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-top: 15px;
+  }
+  .searchbar{
+    padding: 8px 10px;
+    font-size: 18px;
+    margin-top: 12px;
+    font-family: 'Tagesschrift',sans-serif;
+    transition: transform 0.2s ease-in-out;
+  }
+  .searchbar:focus{
+    outline: none;
+    transform: scale(1.08);
+    
   }
   
   @media (max-width: 768px) {
@@ -120,6 +136,7 @@ body {
       flex-direction: column;
       align-items: center;
       margin-top: 20px;
+
     }
   
     .project-card {

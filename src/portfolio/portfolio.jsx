@@ -67,8 +67,9 @@ function Portfolio() {
               {DisplayProjects ? 'Hide Projects' : 'Display Projects'}
           </button>
           <input
-          type="text"
+          type="text" className='searchbar'
           placeholder="Search projects..."
+          title="Search based on name and tech"
           value={SearchItem}
           onChange={(e) => SetSearchItem(e.target.value)}/>
           </div>
