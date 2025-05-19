@@ -76,7 +76,7 @@ function Portfolio() {
       <div className="project-wrapper">
         
 
-        {DisplayProjects&&projects.map((project, index) => (
+        {DisplayProjects&&filteredProjects.map((project, index) => (
           <ProjectCard key={index} {...project} onClick={() => handleProjectClick(project)} />
         ))}
       </div>
