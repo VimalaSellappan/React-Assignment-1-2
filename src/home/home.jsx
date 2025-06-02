@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './home.css'
 
-function Home() {
+ function Home() {
   return (
     <div class="home_container">
       <div class="left">

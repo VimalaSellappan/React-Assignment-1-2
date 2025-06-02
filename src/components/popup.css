@@ -12,7 +12,7 @@
   z-index: 1000;
   overflow-y: auto;
   padding: 20px;
-  
+  backdrop-filter: blur(4px);
 }
 .popup_content{
   position: relative;
@@ -25,7 +25,15 @@
   border-radius: 10px;
   max-width: 700px;
   width: 70%;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease;
+  overflow-wrap: break-word;
   
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
 }
 .close_button {
   position: absolute;
@@ -41,3 +49,24 @@
     color: brown;
     background-color: wheat;
 } 
+@media (max-width: 600px) {
+  .popup_content {
+    padding: 16px;
+    font-size: 15px;
+  }
+
+  .popup_content img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@keyframes fadeInPopup {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
