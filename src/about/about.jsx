@@ -19,6 +19,7 @@ function About() {
         <h3>Education & Training</h3>
       <ul className="liststyle">
         <li><strong>Bachelor of Engineering – Information Technology</strong>, VSB Engineering College, India (2008–2012) – First Class</li>
+        <li><strong>Sundsgården Folkhögskola, Sweden</strong> (May 2021 – Oct 2021) – Intensive course in web Development</li>
         <li><strong>Lexicon, Sweden</strong> (May 2021 – Oct 2021) – Intensive course in modern technologies</li>
         <li><strong>SFI Kurs C, Sweden</strong> (Jan 2021 – Sep 2021) – Intensive Swedish language course</li>
         <li><strong>High School Certificate</strong>, Bharathi HSS, Namakkal, India (2008) – 89%</li>
@@ -32,6 +33,17 @@ function About() {
         <li><strong>Post Sorter</strong>, Svensk Hemleverans, Linköping, Sweden (Jan 2017 – May 2017)</li>
         <li><strong>Lecturer</strong>, Muthayammal Polytechnic College, Rasipuram, India (Jan 2013 – Mar 2015)</li>
       </ul>
+      <div className="contact_footer">
+        <a href="mailto:vimalasellappan1991@gmail.com" target="_blank" rel="noreferrer">
+          <i className="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/vimala-sellappan" target="_blank" rel="noreferrer">
+          <i className="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/VimalaSellappan" target="_blank" rel="noreferrer">
+          <i className="fab fa-github"></i>
+        </a>
+      </div>
       </div>
     );
   }

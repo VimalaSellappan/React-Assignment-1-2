@@ -24,8 +24,8 @@ body {
   }
   
   h1 {
-    background-color: rgb(137, 54, 137);
     color: white;
+    margin-top: 5px;
     font-size: 38px;
     font-weight: 900;
     text-align: center;
@@ -63,13 +63,14 @@ body {
       text-align: center;
       font-family: 'roboto',sans-serif;
       line-height: 2;
+      
   }
   .project-card p{
     margin-bottom: 12px;
   }
   
   .project-card h2 {
-    color: blue;
+    color: black;
     margin-bottom: 10px;
   }
   

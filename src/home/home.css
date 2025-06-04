@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    background: linear-gradient(to right, #2b1246, #eef1f5);
   }
   
    .home_container {
@@ -12,7 +13,8 @@ body {
     align-items: center;
     padding: 80px 50px;
     color: white;
-    
+    gap: 40px;
+      
   }
   .left {
     margin-right: 40px;
@@ -20,8 +22,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+  }
+  .profile_pic{
+    animation: fadeInUp 1s ease forwards;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
   }
   .home_intro{
     font-weight: bold;
@@ -35,6 +43,7 @@ body {
     line-height: 2.5;
     font-size: 26px;
     padding-left: 20px;
+    animation: fadeInUp 1s ease forwards;
   }
   
     button {
@@ -48,11 +57,26 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    
+  }
+  .home_button{
+    animation: fadeInUp 1s ease forwards;
+
   }
   
   button:hover {
-    background-color: #5e0ee2;
+    background-color: #c4a7f3;
   }
+  @keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
   @media (max-width: 768px) {
     .home_container{
       flex-direction: column;

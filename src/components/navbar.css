@@ -17,7 +17,8 @@
   justify-content: space-between;
   align-items: center;
   z-index: 1000; 
-  border: 5px solid rgb(137, 54, 137);;
+  box-shadow: 0 4px 8px rgba(137, 54, 137, 0.3);
+  border: 5px solid transparent; 
   }
   nav .left {
   display: flex;
@@ -30,7 +31,7 @@
   }
   
   nav a {
-    color:  rgb(137, 54, 137);
+    color:  #2b1246;
     text-decoration: none;  
     padding: 10px;     
     margin: 0 10px;  
@@ -40,7 +41,7 @@
   }
   
   nav a:hover {
-    color: #480ad0;  
+    color: #7d5bc8;  
   }
   .menu-toggle {
   display: none;
